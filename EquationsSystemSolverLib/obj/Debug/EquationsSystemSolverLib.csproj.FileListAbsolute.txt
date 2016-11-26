@@ -1,0 +1,27 @@
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Debug\EquationsSystemSolverLib.dll
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Debug\EquationsSystemSolverLib.pdb
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Debug\MathNet.Numerics.dll
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Debug\MathNet.Numerics.xml
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.csprojResolveAssemblyReference.cache
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.dll
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.pdb
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder\EquationsSystemSolverLib\bin\Debug\EquationsSystemSolverLib.dll
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder\EquationsSystemSolverLib\bin\Debug\EquationsSystemSolverLib.pdb
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder\EquationsSystemSolverLib\bin\Debug\MathNet.Numerics.dll
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder\EquationsSystemSolverLib\bin\Debug\MathNet.Numerics.xml
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.dll
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.pdb
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.csprojResolveAssemblyReference.cache
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder_UtilityAndForecast\EquationsSystemSolverLib\bin\Debug\EquationsSystemSolverLib.dll
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder_UtilityAndForecast\EquationsSystemSolverLib\bin\Debug\EquationsSystemSolverLib.pdb
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder_UtilityAndForecast\EquationsSystemSolverLib\bin\Debug\MathNet.Numerics.dll
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder_UtilityAndForecast\EquationsSystemSolverLib\bin\Debug\MathNet.Numerics.xml
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder_UtilityAndForecast\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.dll
+c:\ELASTISITY\Системы уравнений\OptimalPricesFinder_UtilityAndForecast\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.pdb
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Debug\EquationsSystemSolverLib.dll
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Debug\EquationsSystemSolverLib.pdb
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Debug\MathNet.Numerics.dll
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Debug\MathNet.Numerics.xml
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.csprojResolveAssemblyReference.cache
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.dll
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Debug\EquationsSystemSolverLib.pdb

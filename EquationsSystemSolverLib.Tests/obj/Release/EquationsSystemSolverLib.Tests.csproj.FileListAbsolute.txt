@@ -1,0 +1,9 @@
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\obj\Release\EquationsSystemSolverLib.Tests.csprojResolveAssemblyReference.cache
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\EquationsSystemSolverLib.Tests.dll
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\EquationsSystemSolverLib.Tests.pdb
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\EquationsSystemSolverLib.dll
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\MathNet.Numerics.dll
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\EquationsSystemSolverLib.pdb
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\MathNet.Numerics.xml
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\obj\Release\EquationsSystemSolverLib.Tests.dll
+C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\obj\Release\EquationsSystemSolverLib.Tests.pdb

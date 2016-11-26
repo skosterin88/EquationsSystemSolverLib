@@ -1,0 +1,6 @@
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationSystemSolverLib\bin\Release\EquationSystemSolverLib.dll
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationSystemSolverLib\bin\Release\EquationSystemSolverLib.pdb
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationSystemSolverLib\bin\Release\MathNet.Numerics.dll
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationSystemSolverLib\bin\Release\MathNet.Numerics.xml
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationSystemSolverLib\obj\Release\EquationSystemSolverLib.dll
+C:\ELASTISITY\Системы уравнений\EquationSystemSolverLib\EquationSystemSolverLib\obj\Release\EquationSystemSolverLib.pdb
