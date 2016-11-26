@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MathNet;
 using MathNet.Numerics;
 using MathNet.Numerics.LinearAlgebra;
+using Ninject;
 
 namespace EquationsSystemSolverLib
 {
@@ -45,6 +46,7 @@ namespace EquationsSystemSolverLib
             }
         }
 
+        [Inject]
         public NewtonRaphsonMethod(EquationsSystem system, ISolverSettings settings)
         {
             _eqSystem = system;

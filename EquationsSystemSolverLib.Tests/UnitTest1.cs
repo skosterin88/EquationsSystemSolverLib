@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Ninject;
+using Ninject.Parameters;
 
 
 namespace EquationsSystemSolverLib.Tests
@@ -12,6 +14,8 @@ namespace EquationsSystemSolverLib.Tests
         [TestMethod]
         public void Solver_Run_VariablesCountMismatch_ExceptionThrown()
         {
+            var kernel = new StandardKernel(new ConfigModule());
+
             EquationsSystem eqSystem = new EquationsSystem()
             {
                 EquationFunctions = new List<Func<double[], double[], double>>(){
@@ -31,16 +35,20 @@ namespace EquationsSystemSolverLib.Tests
                 }
             };
 
-            ISolverSettings solverSettings = new NewtonRaphsonSettings()
-            {
-                InitialValues = new double[] { 0.5 },
-                MaxIterations = 100,
-                Precision = 1e-5
-            };
+            ISolverSettings solverSettings = kernel.Get<ISolverSettings>();
+
+            solverSettings.InitialValues = new double[] { 0.5 };
+            solverSettings.MaxIterations = 100;
+            solverSettings.Precision = 1e-5;
+            
 
             try
             {
-                ISolveMethod solutionMethod = new NewtonRaphsonMethod(eqSystem, solverSettings);
+
+
+                ISolveMethod solutionMethod = kernel.Get<ISolveMethod>
+                    (new ConstructorArgument("system", eqSystem),
+                    new ConstructorArgument("settings", solverSettings));
                 EquationsSystemSolver solver = new EquationsSystemSolver(solutionMethod);
                 solver.Run();
             }
@@ -57,6 +65,8 @@ namespace EquationsSystemSolverLib.Tests
         [TestMethod]
         public void LinearSystem_Solved()
         {
+            var kernel = new StandardKernel(new ConfigModule());
+
             EquationsSystem eqSystem = new EquationsSystem()
             {
                 EquationFunctions = new List<Func<double[], double[], double>>(){
@@ -76,15 +86,16 @@ namespace EquationsSystemSolverLib.Tests
                 }
             };
 
-            ISolverSettings solverSettings = new NewtonRaphsonSettings()
-            {
-                InitialValues = new double[] { 0.5, 0.5 },
-                MaxIterations = 100,
-                Precision = 1e-5
-            };
+            ISolverSettings solverSettings = kernel.Get<ISolverSettings>();
 
-            ISolveMethod solutionMethod = new NewtonRaphsonMethod(eqSystem, solverSettings);
-            EquationsSystemSolver solver = new EquationsSystemSolver(solutionMethod);          
+            solverSettings.InitialValues = new double[] { 0.5, 0.5 };
+            solverSettings.MaxIterations = 100;
+            solverSettings.Precision = 1e-5;
+
+            ISolveMethod solutionMethod = kernel.Get<ISolveMethod>
+                (new ConstructorArgument("system", eqSystem), 
+                new ConstructorArgument("settings", solverSettings));
+            EquationsSystemSolver solver = new EquationsSystemSolver(solutionMethod);
             solver.Run();
 
             bool isCorrectSolution = solver.Solution.All(x => Math.Abs(x - 1.0) < 0.001);

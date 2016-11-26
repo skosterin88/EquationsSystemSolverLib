@@ -29,3 +29,5 @@ C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Rele
 C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Release\EquationsSystemSolverLib.dll
 C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Release\EquationsSystemSolverLib.pdb
 C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\obj\Release\EquationsSystemSolverLib.csprojResolveAssemblyReference.cache
+c:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Release\Ninject.dll
+c:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib\bin\Release\Ninject.xml

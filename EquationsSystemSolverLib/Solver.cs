@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ninject;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -55,8 +56,13 @@ namespace EquationsSystemSolverLib
             _solutionMethod = new NewtonRaphsonMethod(null, null);
         }
 
+        [Inject]
         public EquationsSystemSolver(ISolveMethod solutionMethod)
         {
+            if (solutionMethod == null)
+            {
+                throw new ArgumentNullException("Не определен метод решения!");
+            }
             _solutionMethod = solutionMethod;
         }
 

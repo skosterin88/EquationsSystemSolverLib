@@ -7,3 +7,5 @@ C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bi
 C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\MathNet.Numerics.xml
 C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\obj\Release\EquationsSystemSolverLib.Tests.dll
 C:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\obj\Release\EquationsSystemSolverLib.Tests.pdb
+c:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\Ninject.dll
+c:\Sergey\VSNetSamples\EquationSystemSolverLib\EquationsSystemSolverLib.Tests\bin\Release\Ninject.xml
